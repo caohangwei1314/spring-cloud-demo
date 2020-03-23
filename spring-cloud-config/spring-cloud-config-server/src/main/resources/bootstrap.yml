@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/spring-cloud-samples/config-repo
+          username: trolley
+          password: strongpassword
+          default-label: master
+          search-paths: config
