@@ -5,6 +5,6 @@ Spring Cloud 全家桶系列 Demo
 ``` lua
 spring-cloud-demo
 └─ spring-cloud-config -- Spring Cloud Config Demo
-    ├─ spring-cloud-config-client -- upms系统公共模块
-    └─ spring-cloud-config-client -- upms系统公共模块
+    ├─ spring-cloud-config-client -- Spring Cloud Config 服务端
+    └─ spring-cloud-config-server -- Spring Cloud Config 客户端
 ```
